@@ -1,0 +1,13 @@
+{
+    "window.zoomLevel": 0,
+    "editor.fontFamily": "'Dank Mono', Menlo, Monaco, 'Courier New', monospace",
+    "editor.fontLigatures": true,
+    "editor.fontSize": 14,
+    "files.associations": {
+        "*.ts": "typescript"
+    },
+    "editor.tabSize": 2,
+    "workbench.colorTheme": "Night Owl",
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "editor.minimap.enabled": false
+}

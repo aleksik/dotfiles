@@ -1,0 +1,43 @@
+cask_args appdir: '/Applications'
+
+tap 'homebrew/cask'
+tap 'homebrew/cask-versions'
+tap 'buo/cask-upgrade'
+
+brew 'composer'
+brew 'coreutils'
+brew 'duti'
+brew 'findutils', args: ['with-default-names']
+brew 'gcc'
+brew 'gdb'
+brew 'git'
+brew 'glib'
+brew 'mas'
+brew 'nano'
+brew 'nvm'
+brew 'openssl'
+brew 'php'
+brew 'pipenv'
+brew 'wget'
+brew 'zsh'
+brew 'zsh-completions'
+
+cask '1password'
+cask 'alfred'
+cask 'appzapper'
+cask 'docker'
+cask 'dropbox'
+cask 'firefox'
+cask 'google-chrome'
+cask 'iterm2'
+cask 'karabiner-elements'
+cask 'little-snitch'
+cask 'opera'
+cask 'spotify'
+cask 'the-unarchiver'
+cask 'transmission'
+cask 'visual-studio-code'
+cask 'vlc'
+
+# mas sign in is broken in macos mojave
+# mas 'Magnet', id: 441258766
