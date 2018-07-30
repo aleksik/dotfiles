@@ -28,3 +28,5 @@ find * -name "*.list" | while read fn; do
     done < "$fn"
     success "Finished installing $1 packages."
 done
+
+. ./nvm-postsetup.sh

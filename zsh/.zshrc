@@ -58,4 +58,8 @@ plugins=(
   git
 )
 
+# node version manager
+export NVM_DIR="$HOME/.nvm"
+. "/usr/local/opt/nvm/nvm.sh"
+
 source $ZSH/oh-my-zsh.sh
